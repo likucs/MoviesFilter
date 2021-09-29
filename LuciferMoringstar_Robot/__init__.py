@@ -32,7 +32,7 @@ Bot Owner Only
 ABOUT = """
 ➥ Name :  Auto Filter With IMDB
     
-➥ Creator : [Muhammed RK](t.me/iAmLiKu1)
+➥ Creator : [LiKu Cs](t.me/iAmLiKu1)
 
 ➥ Language : Python3
 
