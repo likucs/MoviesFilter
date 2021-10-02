@@ -278,7 +278,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             buttons = [
                 [
                     InlineKeyboardButton('Premium Webseries 🔰', url='https://t.me/joinchat/_BnPI1aIpz5lZDE1'),
-                    InlineKeyboardButton('Premium Movies' 🎬', url='https://t.me/joinchat/x7j0y7O9ueM1MTJl')
+                    InlineKeyboardButton('Premium Movies 🎬', url='https://t.me/joinchat/x7j0y7O9ueM1MTJl')
                 ]
                 ]
             await query.message.edit(text=f"{HELP}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -287,7 +287,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             buttons = [
                 [
                     InlineKeyboardButton('Premium Webseries 🔰', url='https://t.me/joinchat/_BnPI1aIpz5lZDE1''),
-                    InlineKeyboardButton('Premium Movies' 🎬', url='https://t.me/joinchat/x7j0y7O9ueM1MTJl')
+                    InlineKeyboardButton('Premium Movies 🎬', url='https://t.me/joinchat/x7j0y7O9ueM1MTJl')
                 ]
                 ]
             await query.message.edit(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
