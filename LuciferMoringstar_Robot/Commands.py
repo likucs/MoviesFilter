@@ -45,7 +45,7 @@ async def start(bot, message):
                 ident, file_id = message.text.split("_-_-_-_")
                 await bot.send_message(
                     chat_id=message.from_user.id,
-                    text="**Please🙏 Join My Main Channel 👇,Then Come Back & Click on the 🔄 Try Again button & Get Your Movies File Video!**",
+                    text="**🙏 Join My Main Channel 👇!**",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
