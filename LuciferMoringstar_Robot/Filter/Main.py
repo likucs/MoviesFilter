@@ -58,7 +58,6 @@ async def filter(client, message):
         if files:
             for file in files:
                 file_id = file.file_id
-                filename = f"[{get_size(file.file_size)}] {file.file_name}"
                 btn.append(
                     [InlineKeyboardButton(text=button_text =f"🗒️{file_size}🗂️{file_name}",callback_data=f"pr0fess0r_99#{file_id}")]
                     )
