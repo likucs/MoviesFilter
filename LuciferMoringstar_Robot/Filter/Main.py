@@ -105,6 +105,7 @@ async def filter(client, message):
             [InlineKeyboardButton(text=f"🔖 𝗣𝗮𝗴𝗲 1/{data['total']}",callback_data="pages")]
         )
         poster=None
+        buttons = [[InlineKeyboardButton("🔲 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 🔲", url="https://t.me/joinchat/x7j0y7O9ueM1MTJl")]]  + buttons
         if API_KEY:
             poster=await get_poster(search)
         if poster:
@@ -170,6 +171,7 @@ async def group(client, message):
             [InlineKeyboardButton(text=f"🔖 𝗣𝗮𝗴𝗲 1/{data['total']}",callback_data="pages")]
         )
         poster=None
+        buttons = [[InlineKeyboardButton("🔲 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 🔲", url="https://t.me/joinchat/x7j0y7O9ueM1MTJl")]]  + buttons
         if API_KEY:
             poster=await get_poster(search)
         if poster:
