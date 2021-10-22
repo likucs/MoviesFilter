@@ -116,7 +116,6 @@ async def start(bot, message):
             photo="https://telegra.ph/file/25f78f36a7ef9f2212451.jpg",
             caption= START_MSG ,
             parse_mode="Markdown",
-            disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
                 InlineKeyboardButton("𝙎𝙚𝙖𝙧𝙘𝙝 𝙃𝙚𝙧𝙚 🔎🎬", switch_inline_query_current_chat=''),
