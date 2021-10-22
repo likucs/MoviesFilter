@@ -82,10 +82,10 @@ async def filter(client, message):
         else:
             buttons = btn
             buttons.append(
-                [InlineKeyboardButton(text="📃 Pages 1/1",callback_data="pages")]
+                [InlineKeyboardButton(text="📑 Pages 1/1 📝",callback_data="pages")]
             )
             poster=None 
-            buttons = [[InlineKeyboardButton("🔲 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 🔲", url="https://t.me/joinchat/x7j0y7O9ueM1MTJl")]]  + buttons
+            buttons = [[InlineKeyboardButton("✪ 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 ✪", url="https://t.me/joinchat/x7j0y7O9ueM1MTJl")]]  + buttons
             if API_KEY:
                 poster=await get_poster(search)
             if poster:
@@ -105,7 +105,7 @@ async def filter(client, message):
             [InlineKeyboardButton(text=f"🔖 𝗣𝗮𝗴𝗲 1/{data['total']}",callback_data="pages")]
         )
         poster=None
-        buttons = [[InlineKeyboardButton("🔲 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 🔲", url="https://t.me/joinchat/x7j0y7O9ueM1MTJl")]]  + buttons
+        buttons = [[InlineKeyboardButton("✪ 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 ✪", url="https://t.me/joinchat/x7j0y7O9ueM1MTJl")]]  + buttons
         if API_KEY:
             poster=await get_poster(search)
         if poster:
@@ -149,10 +149,10 @@ async def group(client, message):
         else:
             buttons = btn
             buttons.append(
-                [InlineKeyboardButton(text="📃 Pages 1/1",callback_data="pages")]
+                [InlineKeyboardButton(text="📑 Pages 1/1 📝",callback_data="pages")]
             )
             poster=None
-            buttons = [[InlineKeyboardButton("🔲 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 🔲", url="https://t.me/joinchat/x7j0y7O9ueM1MTJl")]]  + buttons
+            buttons = [[InlineKeyboardButton("✪ 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 ✪", url="https://t.me/joinchat/x7j0y7O9ueM1MTJl")]]  + buttons
             if API_KEY:
                 poster=await get_poster(search)
             if poster:
@@ -171,7 +171,7 @@ async def group(client, message):
             [InlineKeyboardButton(text=f"🔖 𝗣𝗮𝗴𝗲 1/{data['total']}",callback_data="pages")]
         )
         poster=None
-        buttons = [[InlineKeyboardButton("🔲 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 🔲", url="https://t.me/joinchat/x7j0y7O9ueM1MTJl")]]  + buttons
+        buttons = [[InlineKeyboardButton("✪ 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 ✪", url="https://t.me/joinchat/x7j0y7O9ueM1MTJl")]]  + buttons
         if API_KEY:
             poster=await get_poster(search)
         if poster:
@@ -222,7 +222,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     [InlineKeyboardButton("☚ 𝘽𝙖𝙘𝙠", callback_data=f"back_{int(index)+1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"┏༼ ◉ ╭╮ ◉༽┓  🔖 𝗣𝗮𝗴𝗲 {int(index)+2}/{data['total']}  (๑′°︿°๑)", callback_data="pages")]
+                    [InlineKeyboardButton(f"(๑′°︿°๑)  🔖 𝗣𝗮𝗴𝗲 {int(index)+2}/{data['total']}  (๑′°︿°๑)", callback_data="pages")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -236,7 +236,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     [InlineKeyboardButton("☚𝘽𝙖𝙘𝙠", callback_data=f"back_{int(index)+1}_{keyword}"),InlineKeyboardButton("𝙉𝙚𝙭𝙩 ⏩", callback_data=f"next_{int(index)+1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"┏༼ ◉ ╭╮ ◉༽┓  🔖 𝗣𝗮𝗴𝗲 {int(index)+2}/{data['total']}  (๑′°︿°๑)", callback_data="pages")]
+                    [InlineKeyboardButton(f"(๑′°︿°๑)  🔖 𝗣𝗮𝗴𝗲 {int(index)+2}/{data['total']}  (๑′°︿°๑)", callback_data="pages")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -260,7 +260,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     [InlineKeyboardButton("𝗚𝗢 𝗧𝗢 𝗡𝗘𝗫𝗧 𝗣𝗔𝗚𝗘 📇", callback_data=f"next_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"┏༼ ◉ ╭╮ ◉༽┓  🔖 𝗣𝗮𝗴𝗲 {int(index)}/{data['total']}  (๑′°︿°๑)", callback_data="pages")]
+                    [InlineKeyboardButton(f"(๑′°︿°๑)  🔖 𝗣𝗮𝗴𝗲 {int(index)}/{data['total']}  (๑′°︿°๑)", callback_data="pages")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -274,7 +274,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     [InlineKeyboardButton("☚⏪ 𝘽𝙖𝙘𝙠", callback_data=f"back_{int(index)-1}_{keyword}"),InlineKeyboardButton("𝙉𝙚𝙭𝙩 ⏩", callback_data=f"next_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"┏༼ ◉ ╭╮ ◉༽┓  🔖 𝗣𝗮𝗴𝗲 {int(index)}/{data['total']}  (๑′°︿°๑)", callback_data="pages")]
+                    [InlineKeyboardButton(f"(๑′°︿°๑)  🔖 𝗣𝗮𝗴𝗲 {int(index)}/{data['total']}  (๑′°︿°๑)", callback_data="pages")]
                 )
 
                 await query.edit_message_reply_markup( 
