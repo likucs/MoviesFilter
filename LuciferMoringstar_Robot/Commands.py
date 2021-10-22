@@ -49,7 +49,7 @@ async def start(bot, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("📢 Join Main Channel First 📢", url=invite_link.invite_link)
+                                InlineKeyboardButton("📢 𝗝𝗼𝗶𝗻 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 📢", url=invite_link.invite_link)
                             ],
                             [
                                 InlineKeyboardButton("🔄 Try Again", callback_data=f"checksub#{file_id}")
@@ -84,10 +84,10 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🎬Movies Club', url='https://t.me/MoviesClub_OP')
+                        InlineKeyboardButton('🎬𝗠𝗼𝘃𝗶𝗲𝘀 𝗖𝗹𝘂𝗯📽', url='https://t.me/MoviesClub_OP')
                     ],
                     [
-                        InlineKeyboardButton('🔍 Search again 🔎', switch_inline_query_current_chat='')
+                        InlineKeyboardButton('🔍 𝙎𝙚𝙖𝙧𝙘𝙝 𝙖𝙜𝙖𝙞𝙣 🔎', switch_inline_query_current_chat='')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -106,7 +106,7 @@ async def start(bot, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("📢 Join Updates Channel 📢", url=invite_link.invite_link)
+                        InlineKeyboardButton("📢 𝗝𝗼𝗶𝗻 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 📢", url=invite_link.invite_link)
                     ]
                 ]
             )
@@ -118,11 +118,11 @@ async def start(bot, message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                InlineKeyboardButton("Movies🎬 Group", url="https://t.me/MoviesClub_OP")
+                InlineKeyboardButton("𝙎𝙚𝙖𝙧𝙘𝙝 𝙃𝙚𝙧𝙚 🔎🎬", switch_inline_query_current_chat=''),
+                InlineKeyboardButton("ᴍᴏᴠɪᴇs🎬 ɢʀᴏᴜᴘ", url="https://t.me/MoviesClub_OP")
                 ],[
-                InlineKeyboardButton("Help", callback_data="help"),
-                InlineKeyboardButton("About", callback_data="about")
+                InlineKeyboardButton("𝑯𝑬𝑳𝑷 ❄", callback_data="help"),
+                InlineKeyboardButton("ᗩᗷOᑌT🔥", callback_data="about")
                 ]]
             )
         )
@@ -334,8 +334,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Movies Group 🎬', url='https://t.me/MoviesClub_OP'),
-            InlineKeyboardButton('Premium Movies', url='https://t.me/joinchat/x7j0y7O9ueM1MTJl')
+            InlineKeyboardButton('𝙈𝙤𝙫𝙞𝙚𝙨 𝙂𝙧𝙤𝙪𝙥 🎬', url='https://t.me/MoviesClub_OP'),
+            InlineKeyboardButton('𝐌𝐨𝐯𝐢𝐞𝐬 𝐒𝐭𝐨𝐫𝐞 ➡', url='https://t.me/joinchat/x7j0y7O9ueM1MTJl')
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
