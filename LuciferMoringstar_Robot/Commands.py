@@ -112,7 +112,7 @@ async def start(bot, message):
             )
         )
     else:
-        await cmd.reply_photo(
+        await message.reply_photo(
             photo="https://telegra.ph/file/25f78f36a7ef9f2212451.jpg",
             caption= START_MSG ,
             parse_mode="Markdown",
