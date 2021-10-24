@@ -85,7 +85,7 @@ async def filter(client, message):
                 [InlineKeyboardButton(text="📑 Pages 1/1 📝",callback_data="pages")]
             )
             poster=None 
-            buttons = [[InlineKeyboardButton("✪ 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 ✪", url="https://t.me/joinchat/x7j0y7O9ueM1MTJl")]]  + buttons
+            buttons = [[InlineKeyboardButton("✪ 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 ✪", url="https://t.me/joinchat/XwtyyrY9RH41YmE1")]]  + buttons
             if API_KEY:
                 poster=await get_poster(search)
             if poster:
@@ -105,7 +105,7 @@ async def filter(client, message):
             [InlineKeyboardButton(text=f"🔖 𝗣𝗮𝗴𝗲 1/{data['total']}",callback_data="pages")]
         )
         poster=None
-        buttons = [[InlineKeyboardButton("✪ 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 ✪", url="https://t.me/joinchat/x7j0y7O9ueM1MTJl")]]  + buttons
+        buttons = [[InlineKeyboardButton("✪ 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 ✪", url="https://t.me/joinchat/XwtyyrY9RH41YmE1")]]  + buttons
         if API_KEY:
             poster=await get_poster(search)
         if poster:
@@ -152,7 +152,7 @@ async def group(client, message):
                 [InlineKeyboardButton(text="📑 Pages 1/1 📝",callback_data="pages")]
             )
             poster=None
-            buttons = [[InlineKeyboardButton("✪ 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 ✪", url="https://t.me/joinchat/x7j0y7O9ueM1MTJl")]]  + buttons
+            buttons = [[InlineKeyboardButton("✪ 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 ✪", url="https://t.me/joinchat/XwtyyrY9RH41YmE1")]]  + buttons
             if API_KEY:
                 poster=await get_poster(search)
             if poster:
@@ -171,7 +171,7 @@ async def group(client, message):
             [InlineKeyboardButton(text=f"🔖 𝗣𝗮𝗴𝗲 1/{data['total']}",callback_data="pages")]
         )
         poster=None
-        buttons = [[InlineKeyboardButton("✪ 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 ✪", url="https://t.me/joinchat/x7j0y7O9ueM1MTJl")]]  + buttons
+        buttons = [[InlineKeyboardButton("✪ 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 ✪", url="https://t.me/joinchat/XwtyyrY9RH41YmE1")]]  + buttons
         if API_KEY:
             poster=await get_poster(search)
         if poster:
@@ -285,7 +285,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             buttons = [
                 [
                     InlineKeyboardButton('Premium Webseries 🔰', url='https://t.me/joinchat/_BnPI1aIpz5lZDE1'),
-                    InlineKeyboardButton('Premium Movies 🎬', url='https://t.me/joinchat/x7j0y7O9ueM1MTJl')
+                    InlineKeyboardButton('Premium Movies 🎬', url='https://t.me/joinchat/XwtyyrY9RH41YmE1')
                 ]
                 ]
             await query.message.edit(text=f"{HELP}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -293,8 +293,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Premium Webseries 🔰', url='https://t.me/joinchat/_BnPI1aIpz5lZDE1'),
-                    InlineKeyboardButton('Premium Movies 🎬', url='https://t.me/joinchat/x7j0y7O9ueM1MTJl')
+                    InlineKeyboardButton('Premium Webseries 🔰', url='https://t.me/joinchat/XwtyyrY9RH41YmE1'),
+                    InlineKeyboardButton('Premium Movies 🎬', url='https://t.me/joinchat/XwtyyrY9RH41YmE1')
                 ]
                 ]
             await query.message.edit(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -349,7 +349,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons = [
                     [
                         InlineKeyboardButton('🎬Movies Group', url='https://t.me/MoviesClub_OP'),
-                        InlineKeyboardButton('Private Database📊', url='https://t.me/joinchat/x7j0y7O9ueM1MTJl')
+                        InlineKeyboardButton('Private Database📊', url='https://t.me/joinchat/XwtyyrY9RH41YmE1')
                     ]
                     ]
                 
