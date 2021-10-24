@@ -335,7 +335,7 @@ async def bot_info(bot, message):
     buttons = [
         [
             InlineKeyboardButton('𝙈𝙤𝙫𝙞𝙚𝙨 𝙂𝙧𝙤𝙪𝙥 🎬', url='https://t.me/MoviesClub_OP'),
-            InlineKeyboardButton('𝐌𝐨𝐯𝐢𝐞𝐬 𝐒𝐭𝐨𝐫𝐞 ➡', url=''https://t.me/joinchat/XwtyyrY9RH41YmE1)
+            InlineKeyboardButton('𝐌𝐨𝐯𝐢𝐞𝐬 𝐒𝐭𝐨𝐫𝐞 ➡', url='https://t.me/joinchat/XwtyyrY9RH41YmE1)
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
