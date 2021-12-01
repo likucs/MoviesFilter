@@ -135,16 +135,6 @@ async def group(client, message):
                     [InlineKeyboardButton(text=f"{filename}", url=f"https://telegram.dog/{nyva}?start=pr0fess0r_99_-_-_-_{file_id}")]
                 )
         else:
-            LuciferMoringstar=await client.send_message(
-            chat_id = message.chat.id,
-            text=f"""
-👋Hey {message.from_user.mention}
-𝐂𝐡𝐞𝐜𝐤 𝐬𝐩𝐞𝐥𝐥𝐢𝐧𝐠 𝐨𝐟 𝐭𝐡𝐞 𝐧𝐚𝐦𝐞 𝐨𝐟 𝐭𝐡𝐞 𝐫𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐦𝐨𝐯𝐢𝐞 𝐦𝐚𝐲 𝐧𝐨𝐭 𝐛𝐞 𝐜𝐨𝐫𝐫𝐞𝐜𝐭..
-⚠️ 𝐃𝐨𝐧'𝐭 𝐔𝐬𝐞 𝐓𝐡𝐞𝐬𝐞 𝐖𝐨𝐫𝐝𝐬 𝐖𝐢𝐭𝐡 𝐌𝐨𝐯𝐢𝐞𝐬 𝐍𝐚𝐦𝐞- 𝐌𝐨𝐯𝐢𝐞𝐬,𝐇𝐢𝐧𝐝𝐢,𝐄𝐧𝐠𝐥𝐢𝐬𝐡,𝐃𝐮𝐮𝐛𝐞𝐝,𝐓𝐚𝐦𝐢𝐥 - 
-🔴 𝐓𝐲𝐩𝐞 𝐎𝐧𝐥𝐲 𝐌𝐨𝐯𝐢𝐞 𝐍𝐚𝐦𝐞 𝐞𝐠- 𝐊𝐚𝐛𝐢𝐫 𝐒𝐢𝐧𝐠𝐡 ✅""",
-            parse_mode="html",
-            reply_to_message_id=message.message_id
-        )
             return
         if not btn:
             return
